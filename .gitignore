@@ -1,0 +1,19 @@
+# Ignore unnecessary Unreal files
+Saved/
+Intermediate/
+DerivedDataCache/
+.vscode/
+*.sln
+*.suo
+*.user
+*.opensdf
+*.sdf
+*.ipch
+
+# Optional: ignore binaries if you’re sharing only Blueprint code
+Binaries/
+Build/
+
+# Git LFS (if using large files)
+*.uasset filter=lfs diff=lfs merge=lfs -text
+*.umap filter=lfs diff=lfs merge=lfs -text
